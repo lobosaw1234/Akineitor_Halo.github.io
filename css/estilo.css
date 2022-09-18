@@ -1,0 +1,85 @@
+body{
+	background-image: url('../img/dark.jpg');
+	padding-top: 3em;
+    max-width: 40em;
+	margin: auto;
+    font-family: sans-serif;
+	text-align: center;
+}
+header {
+    line-height: 50px;
+    background-color: green;
+    opacity: 0.6;
+	text-align: center;
+	border: red 5px double;
+	color: white;
+}
+.pregunta{
+	color: white;
+}
+.contenedorPregunta{
+	background-color: none;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	color: white;
+}
+
+
+textarea{
+	font-size: 1.5em;
+	width:100%;
+}
+
+button{
+	margin-top:1em;
+	font-size: 2em;
+	width:100%;
+}
+
+.contenedorRespuestas{
+}
+
+.boton{
+	width: 50%;
+	height:50px;
+	
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;       
+	
+	background-color: black;
+	opacity: 1;
+	float:left;
+	
+	text-decoration: none;
+}
+
+
+
+
+.boton:hover{
+	background-color: #666666;
+	color: #FFFFFF;
+	
+}
+
+.limpiar{
+	clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+	background-color: green;
+	opacity: 0.6;
+	border: red 5px double;
+}
+.regreso{
+	color: black;
+	text-decoration: none;
+}
+.ali-derecha{
+	/*float: left;*/
+	width: 300px;
+	height: 200px;
+}
